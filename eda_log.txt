@@ -1,0 +1,66 @@
+Loaded dataset: 1520 rows, 16 columns
+
+Removed 20 duplicate rows -> 1500 rows remain
+Missing values after cleaning:
+EmployeeID             0
+Age                    0
+Department             0
+JobRole                0
+MonthlyIncome          0
+YearsAtCompany         0
+DistanceFromHome       0
+EducationLevel         0
+BusinessTravel         0
+OverTime               0
+JobSatisfaction        0
+WorkLifeBalance        0
+PerformanceRating      0
+NumCompaniesWorked     0
+PromotionLast5Years    0
+Attrition              0
+
+=== STATISTICAL SUMMARY (numeric features) ===
+                      count     mean      std     min      25%      50%      75%       max
+Age                  1500.0    35.61     8.44    20.0    30.00    36.00    41.25     60.00
+MonthlyIncome        1500.0  6986.75  2878.39  2200.0  4993.73  6579.34  8327.82  18305.36
+YearsAtCompany       1500.0     3.78     3.52     0.0     1.00     3.00     5.00     33.00
+DistanceFromHome     1500.0     7.57     7.57     1.0     2.00     5.00    10.25     40.00
+EducationLevel       1500.0     3.18     1.06     1.0     2.00     3.00     4.00      5.00
+JobSatisfaction      1500.0     2.82     0.88     1.0     2.00     3.00     3.00      4.00
+WorkLifeBalance      1500.0     2.66     0.87     1.0     2.00     3.00     3.00      4.00
+PerformanceRating    1500.0     3.00     0.75     1.0     3.00     3.00     3.00      4.00
+NumCompaniesWorked   1500.0     2.12     1.50     0.0     1.00     2.00     3.00      8.00
+PromotionLast5Years  1500.0     0.26     0.44     0.0     0.00     0.00     1.00      1.00
+
+=== ATTRITION RATE ===
+Attrition
+No     74.5
+Yes    25.5%
+
+=== ATTRITION RATE BY DEPARTMENT ===
+Department
+R&D            29.1
+Engineering    26.8
+HR             25.0
+Marketing      23.9
+Sales          21.9
+
+=== ATTRITION RATE BY OVERTIME ===
+OverTime
+No     19.2
+Yes    40.6
+
+=== TOP CORRELATIONS (|r| > 0.2, excluding self-correlation) ===
+Age <-> YearsAtCompany: r = 0.26
+
+=== CORRELATION OF NUMERIC FEATURES WITH ATTRITION ===
+WorkLifeBalance       -0.139
+JobSatisfaction       -0.105
+MonthlyIncome         -0.094
+PromotionLast5Years   -0.088
+YearsAtCompany        -0.072
+NumCompaniesWorked     0.058
+EducationLevel        -0.056
+DistanceFromHome       0.045
+Age                    0.027
+PerformanceRating     -0.001
