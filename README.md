@@ -84,6 +84,5 @@ This regenerates the dataset and every chart/statistic in this repo from scratch
 - **Pandas** / **NumPy** — data handling & statistics
 - **Matplotlib** / **Seaborn** — visualization
 
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
+## Author
+**Bharat Kumar**
